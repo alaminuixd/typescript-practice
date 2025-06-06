@@ -8,3 +8,14 @@ exports.person = [
     { name: "khan" },
 ];
 console.log(exports.person);
+function useGPS() {
+    let lant = 345;
+    let lat = 435;
+    return [lant, lat];
+}
+console.log(useGPS());
+let user;
+user = ["Al Amin Khan", 34, true];
+console.log(user[2]);
+const [a, b, c] = user;
+console.log(a);
